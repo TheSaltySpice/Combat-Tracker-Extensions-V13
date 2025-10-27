@@ -1,40 +1,27 @@
 {
-  "id": "combat-tracker-extensions",
+  "name": "combat-tracker-extensions",
   "title": "Combat Tracker Extensions",
-  "description": "Add features to Combat Tracker like name hiding, hide/obscure initiative/combatant based on type/disposition/visibility/ownership, reverse initiative order, groups, custom combat phases, multiple combatants for the same token and many more. All features optional and configurable. System-agnostic.",  
-  "version": "1.4",
-  "compatibility": {
-    "minimum": "10",
-    "maximum": "11",
-    "verified": "11"
-  },  
-  "manifest": "https://raw.githubusercontent.com/Anderware/Combat-Tracker-Extensions/main/module.json",
-  "download": "https://github.com/Anderware/Combat-Tracker-Extensions/releases/download/v1.4/combat-tracker-extensions.zip",
-  "changelog": "https://github.com/Anderware/Combat-Tracker-Extensions/blob/main/changelog.md",
-  "readme": "https://github.com/Anderware/Combat-Tracker-Extensions/blob/main/readme.md",
-  "url": "https://github.com/Anderware/Combat-Tracker-Extensions",
-  "bugs": "https://github.com/Anderware/Combat-Tracker-Extensions/issues",
-  "license": "https://opensource.org/licenses/AGPL-3.0",
-  "authors": [
-    {
-      "name": "Ramses800",
-      "url": "https://ko-fi.com/ramses800",
-      "discord": "Ramses800#8517"
-    }
+  "description": "Extensions and helpers for the Combat Tracker (modernized v12+). System-agnostic.",
+  "version": "2.0.0",
+  "author": "Anderware (patched)",
+  "minimumCoreVersion": "12",
+  "compatibleCoreVersion": "12",
+  "scripts": [
+    "scripts/helpers.js",
+    "scripts/settings.js",
+    "scripts/CombatTrackerExtensions.js"
   ],
-  "esmodules": [
-    "scripts/combat-tracker-extensions.js"
-  ],
+  "esmodules": [],
   "styles": [
-    "styles/combat-tracker-extensions.css",
-    "styles/dropdownmenu.css",
-    "styles/module-settings.css"
+    "styles/styles.css"
   ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ]
+  "languages": [],
+  "url": "https://github.com/Anderware/Combat-Tracker-Extensions",
+  "manifest": "https://raw.githubusercontent.com/Anderware/Combat-Tracker-Extensions/master/module.json",
+  "download": "https://github.com/Anderware/Combat-Tracker-Extensions/archive/refs/heads/master.zip",
+  "license": "MIT",
+  "readme": "README.md",
+  "flags": {
+    "allowRemote": true
+  }
 }
