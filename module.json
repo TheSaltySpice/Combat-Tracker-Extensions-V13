@@ -1,27 +1,31 @@
 {
   "name": "combat-tracker-extensions",
-  "title": "Combat Tracker Extensions",
-  "description": "Extensions and helpers for the Combat Tracker (modernized v12+). System-agnostic.",
-  "version": "2.0.0",
+  "title": "Combat Tracker Extensions (Modernized)",
+  "description": "Adds UI improvements and utilities to the Combat Tracker. Modernized for Foundry v12+.",
+  "version": "1.0.0",
   "author": "Anderware (patched)",
+  "license": "MIT",
   "minimumCoreVersion": "12",
   "compatibleCoreVersion": "12",
-  "scripts": [
-    "scripts/helpers.js",
+  "esmodules": [
+    "scripts/CombatTrackerExtensions.js",
     "scripts/settings.js",
-    "scripts/CombatTrackerExtensions.js"
+    "scripts/helpers.js"
   ],
-  "esmodules": [],
+  "scripts": [],
   "styles": [
     "styles/styles.css"
   ],
-  "languages": [],
   "url": "https://github.com/Anderware/Combat-Tracker-Extensions",
   "manifest": "https://raw.githubusercontent.com/Anderware/Combat-Tracker-Extensions/master/module.json",
   "download": "https://github.com/Anderware/Combat-Tracker-Extensions/archive/refs/heads/master.zip",
-  "license": "MIT",
   "readme": "README.md",
-  "flags": {
-    "allowRemote": true
-  }
+  "packs": [],
+  "flags": {},
+  "keywords": [
+    "combat",
+    "tracker",
+    "combat-tracker",
+    "ui"
+  ]
 }
